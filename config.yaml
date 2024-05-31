@@ -1,0 +1,11 @@
+exporter:
+  port: 2012
+  endpoint: /metric
+log_path: logfile.log
+watcher:
+- name: test2
+  path: C:\pics
+  format: py, csv
+  labels:
+  - project: myProj
+  - app_name: app1
